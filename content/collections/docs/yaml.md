@@ -103,7 +103,7 @@ YAML doesn't stop at string values. Let's go deeper, and as we do it's important
 
 ### Lists (indexed arrays) {#lists}
 
-Lists can be structured like a plain-text bulleted list or comma delimited by inside brackets, much like JSON.
+Much like JSON, YAML gives you two ways to define a list. You can arrange items vertically as bulleted rows of plain-text, or you can keep everything inline between brackets and use comma separators. The result is the same either way.
 
 ```language-yaml
 shopping_list:
